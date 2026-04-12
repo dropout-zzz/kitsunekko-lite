@@ -22,6 +22,10 @@ Yet another Kitsunekko mirror.
 - Prefer filenames with original titles.
 ## Limitations
 - I only include animes I had watched.
+## Things to do when adding a new show
+- Run `update_statistics.py` script once files added into Git and before committing. If someone forgot this, make a separate commit that updates just the `statistics.json` file.
+- Check if files look good. Avoid including unofficial subs.
+- If adding `.srt` subtitles, double check if there is `.ass` ones available.
 ## Acknowledgements
 - Upstream: https://github.com/Ajatt-Tools/kitsunekko-mirror
 - Original: https://kitsunekko.net/dirlist.php?dir=subtitles%2Fjapanese%2F
