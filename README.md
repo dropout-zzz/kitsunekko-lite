@@ -13,3 +13,7 @@ Yet another Kitsunekko mirror.
 - No unofficial subs.
 - Prefer `.ass` format when they include special SSA effects.
 - Prefer filenames with original titles.
+## Acknowledgements
+- Upstream: https://github.com/Ajatt-Tools/kitsunekko-mirror
+- Original: https://kitsunekko.net/dirlist.php?dir=subtitles%2Fjapanese%2F
+- Jimaku: https://jimaku.cc/
