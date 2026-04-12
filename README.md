@@ -9,10 +9,19 @@ Yet another Kitsunekko mirror.
 - Non-anime, boring things and kid stuffs not included.
 ## Example use cases
 - Clone and grep for specific word, dialogue or expression.
+
+> [!NOTE]
+>
+> If you load these subtitles for watching,
+> be aware this repository may not have the latest or best options,
+> if you're watching anime or if you couldn't find something,
+> try with all aliases of show title and also check upstream sites.
 ## Inclusion policy
 - No unofficial subs.
 - Prefer `.ass` format when they include special SSA effects.
 - Prefer filenames with original titles.
+## Limitations
+- I only include animes I had watched.
 ## Acknowledgements
 - Upstream: https://github.com/Ajatt-Tools/kitsunekko-mirror
 - Original: https://kitsunekko.net/dirlist.php?dir=subtitles%2Fjapanese%2F
