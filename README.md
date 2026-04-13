@@ -27,6 +27,18 @@ Yet another Kitsunekko mirror.
 - Check if files look good. Avoid including unofficial subs.
 - If adding `.srt` subtitles, double check if there is `.ass` ones available.
 - Ensure you've handled all seasons of the show.
+### Fixing up subtitles
+It's rare for subtitles to contain the `[` character in dialogues, often could indicate a problem. Below is a check list:
+* Remove chunks that spams `[外:`.
+#### Emojis
+| Bad | Replace with |
+| --- | --- |
+| `[TEL]` | `☎` or `☎️` |
+| `[ｽﾋﾟｰｶ]` | `🔊` |
+| `[ﾃﾚﾋﾞ]` | `📺️` |
+> [!NOTE]
+>
+> Don't leave spaces after your replaced emoji characters. `check_emojis.py` can help to spot this mistake.
 ## Contributing
 I will add animes those looked interesting to me, let me know via Issues on GitHub.
 ## Support
