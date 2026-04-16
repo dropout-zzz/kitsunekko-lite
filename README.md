@@ -28,7 +28,7 @@ Yet another Kitsunekko mirror.
 - If adding `.srt` subtitles, double check if there is `.ass` ones available.
 - Ensure you've handled all seasons of the show.
 ### Fixing up subtitles
-It's rare for subtitles to contain the `[` character in dialogues, often could indicate a problem. Below is a check list:
+It's rare for subtitles to contain the `[` character in dialogues, often could indicate a problem. `known_bad_patterns.sh` script can be used to detect common ones, or refer to the check list below:
 * Remove chunks that spams `[外:`.
 #### Emojis
 | Bad | Replace with |
