@@ -29,7 +29,7 @@ Yet another Kitsunekko mirror.
 - Ensure you've handled all seasons of the show.
 ### Fixing up subtitles
 It's rare for subtitles to contain the `[` character in dialogues, often could indicate a problem. `known_bad_patterns.sh` script can be used to detect common ones, or refer to the check list below:
-* Remove chunks that spams `[外:`.
+* Remove chunks that spams `[外:`. These are called "ARIB外字" (consult Wikipedia), search the hash on Github chances you will find the emoji to replace it with.
 #### Emojis
 | Bad | Replace with |
 | --- | --- |
